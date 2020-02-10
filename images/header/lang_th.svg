@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Slice</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="15" cy="15" r="15"></circle>
+        <radialGradient cx="42.9346053%" cy="46.8333344%" fx="42.9346053%" fy="46.8333344%" r="49.5948055%" id="radialGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FBFBFB" stop-opacity="0.02" offset="35%"></stop>
+            <stop stop-color="#EEEDEC" stop-opacity="0.11" offset="53%"></stop>
+            <stop stop-color="#D8D6D2" stop-opacity="0.25" offset="67%"></stop>
+            <stop stop-color="#B8B5AE" stop-opacity="0.44" offset="79%"></stop>
+            <stop stop-color="#908B80" stop-opacity="0.7" offset="90%"></stop>
+            <stop stop-color="#605949" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="70.862%" cy="31.4281019%" fx="70.862%" fy="31.4281019%" r="57.9819228%" gradientTransform="translate(0.708620,0.314281),scale(0.869286,1.000000),translate(-0.708620,-0.314281)" id="radialGradient-4">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" x="0" y="0" width="30" height="30"></rect>
+        <g id="Group-60">
+            <g id="312791879">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <image mask="url(#mask-2)" x="-7" y="0" width="45.0819672" height="30" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAABGdBTUEAALGOfPtRkwAAABJQTFRF7Rwk7AAN9qWn////AABCJB1Pn30A0AAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAABE6ADAAQAAAABAAAAtwAAAABpUv0rAAABs0lEQVR4Ae3cuQ3EQAwEQerLP+UDZLKVwRU9tVkYVzvjCBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAgVfgcFtgTrcF5nJbgMkWuS4mTCrQYidMKtBiJ0wq0GInTCrQYidMKtBiJ0wq0GInTCrQYidMKtBiJ0wq0GInTCrQYidMKtBiJ0wq0GInTCrQYidMKtAyt9sC87gtwGSLPA8TJhVosRMmFWixEyYVaLETJhVosRMmFWixEyYVaLETJhVosRMmFWixEyYVaLETJhVosRMmFWixEyYVaLETJhVosRMmFWixEyYVaLETJhVosRMmFWixEyYVaLETJhVosRMmFWixEyYVaLETJhVosRMmFWixEyYVaLETJhVosRMmFWixEyYVaLETJhVosZMPk/2zvu/bWx8f71o0/X2xk06ACZMKtNgJkwq02AmTCrTYCZMKtNgJkwq02AmTCrTYCZMKtNgJkwq02AmTCrTYCZMKtNgJkwq02AmTCrTYCZMKtNjJh8nptsAcbguMI0CAAAECBAgQIECAAAECBAgQIECAAAECBAgQIECAAAECBF6BH/bnDWotB+1MAAAAAElFTkSuQmCC"></image>
+            </g>
+            <path d="M30,15.0202211 C29.9888345,23.3022929 23.2674846,30.0080619 14.9854092,30.0000102 C6.7033338,29.991944 -0.00495312548,23.2731071 0,14.9910293 C0.0049586138,6.70895144 6.72128164,-0.00185240004 15.0033608,-5.5067062e-14 C23.2919018,0.00744051716 30.0055814,6.73167858 30,15.0202211 Z" id="Path" fill="url(#radialGradient-3)" fill-rule="nonzero" opacity="0.6" style="mix-blend-mode: multiply;"></path>
+            <path d="M27.3333333,12.1466667 C27.3333333,17.7466667 22.11,22.2833333 15.6666667,22.2833333 C9.22333333,22.2833333 4,17.7466667 4,12.1466667 C4,6.54666667 9.22333333,2 15.6666667,2 C22.11,2 27.3333333,6.55 27.3333333,12.1466667 Z" id="Path" fill="url(#radialGradient-4)" fill-rule="nonzero" opacity="0.7"></path>
+        </g>
+    </g>
+</svg>

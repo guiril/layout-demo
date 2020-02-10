@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Group 60</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-60" fill-rule="nonzero">
+            <path d="M29.5,15 C29.5,6.99187113 23.0081289,0.5 15,0.5 C6.99187113,0.5 0.5,6.99187113 0.5,15 C0.5,23.0081289 6.99187113,29.5 15,29.5 C18.8456391,29.5 22.5337708,27.9723258 25.2530483,25.2530483 C27.9723258,22.5337708 29.5,18.8456391 29.5,15 Z" id="Path" stroke="#FFDD00"></path>
+            <path d="M16.2754522,11.4 L16.2754522,9.96043426 C16.2754522,9.25910736 16.7198966,9.09191797 17.0320413,9.09191797 L18.9565891,9.09191797 L18.9565891,6.01085645 L16.3085271,6 C13.3669251,6 12.6992248,8.29939686 12.6992248,9.77370326 L12.6992248,11.4 L11,11.4 L11,15 L12.7260982,15 L12.7260982,24 L16.1431525,24 L16.1431525,15 L18.6857881,15 L19,11.3978287 L16.2754522,11.4 Z" id="Path" fill="#FFDD00"></path>
+        </g>
+    </g>
+</svg>

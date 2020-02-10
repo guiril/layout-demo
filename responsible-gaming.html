@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Naga98</title>
+    <link href="https://fonts.googleapis.com/css?family=Heebo:400,500,700,800&amp;display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700&amp;display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Overpass:400,600,700&amp;display=swap"/>
+    <link rel="icon" type="image/svg+xml" href="images/common/favicon.svg"/>
+    <link rel="stylesheet" href="css/swiper.min.css"/>
+    <link rel="stylesheet" href="css/animate.min.css"/>
+    <link rel="stylesheet" href="css/all.css"/>
+  </head>
+  <body>
+    <!-- loading-->
+    <div class="spinner-wrapper">
+      <div class="spinner-container">
+        <div class="spinner"></div>
+        <div class="spinner"></div>
+        <div class="spinner"></div>
+      </div>
+    </div>
+    <!-- loading end -->
+    <div class="wrapper">
+      <!-- header -->
+      <header class="header">
+        <!-- topbar -->
+        <div class="header-topbar">
+          <div class="container">
+            <div class="header-topbar-left">
+              <!-- 語系 -->
+              <ul class="header-lang">
+                <li><a href="javascript:void(0)"><img src="images/header/lang_th.svg" alt="Thai"/></a></li>
+                <li><a class="active" href="javascript:void(0)"><img src="images/header/lang_en.svg" alt="English"/></a></li>
+              </ul>
+              <!-- 時間 -->
+              <div class="header-time"><span>09/01/2019 14:26:04(GMT+8)</span></div>
+            </div>
+            <div class="header-member">
+              <div class="header-member">
+                <!-- 未登入狀態 -->
+                <button class="signin-btn" data-toggle="modal" data-target="#modalSignin"><span>Sign in</span></button>
+                <button class="signup-btn" data-toggle="modal" data-target="#modalSignup"><span>Sign up</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- navbar -->
+        <nav class="navbar">
+          <div class="container">
+            <div class="navbar-brand">
+              <h1><a href="index.html">Naga98</a></h1>
+            </div>
+            <ul class="navbar-list">
+              <!-- Home -->
+              <li><a href="index.html"><img class="orig-img" src="images/navbar/home.svg" alt="Home"/><img class="active-img" src="images/navbar/home_active.svg" alt="Home"/><span>Home</span></a></li>
+              <!-- Sports -->
+              <li><a href="sports.html"><img class="orig-img" src="images/navbar/sports.svg" alt="Sports"/><img class="active-img" src="images/navbar/sports_active.svg" alt="Sports"/><span>Sports</span></a>
+                <!-- sub-navbar -->
+                <div class="sub-navbar-container">
+                  <ul class="sub-navbar-list container flex-center">
+                    <li><a href="javascript:void(0)"><img class="subnav-img" src="images/navbar/sports/sbobet.png" alt="SBOBET"/><span class="subnav-name" data-content="SBOBET" data-hover="Go!"></span></a></li>
+                    <li><a href="javascript:void(0)"><img class="subnav-img" src="images/navbar/sports/cmd368.png" alt="CMD368"/><span class="subnav-name" data-content="CMD368" data-hover="Go!"></span></a></li>
+                  </ul>
+                </div>
+              </li>
+              <!-- Live Casino -->
+              <li><a href="live-casino.html"><img class="orig-img" src="images/navbar/live_casino.svg" alt="Live Casino"/><img class="active-img" src="images/navbar/live_casino_active.svg" alt="Live Casino"/><span>Live Casino</span></a>
+                <!-- sub-navbar -->
+                <div class="sub-navbar-container">
+                  <ul class="sub-navbar-list container">
+                    <li><a href="javascript:void(0)"><img class="subnav-img" src="images/navbar/live-casino/sa.png" alt="SA Casino"/><span class="subnav-name" data-content="SA Casino" data-hover="Go!"></span></a></li>
+                    <li><a href="javascript:void(0)"><img class="subnav-img" src="images/navbar/live-casino/gpi.png" alt="GPI Casino"/><span class="subnav-name" data-content="GPI Casino" data-hover="Go!"></span></a></li>
+                    <li><a href="javascript:void(0)"><img class="subnav-img" src="images/navbar/live-casino/dg.png" alt="DG Casino"/><span class="subnav-name" data-content="DG Casino" data-hover="Go!"></span></a></li>
+                    <li><a href="javascript:void(0)"><img class="subnav-img" src="images/navbar/live-casino/pt.png" alt="PT Casino"/><span class="subnav-name" data-content="PT Casino" data-hover="Go!"></span></a></li>
+                    <li><a href="javascript:void(0)"><img class="subnav-img" src="images/navbar/live-casino/evo.png" alt="EVO Casino"/><span class="subnav-name" data-content="EVO Casino" data-hover="Go!"></span></a></li>
+                    <li><a href="javascript:void(0)"><img class="subnav-img" src="images/navbar/live-casino/ag.png" alt="AG Casino"/><span class="subnav-name" data-content="AG Casino" data-hover="Go!"></span></a></li>
+                    <li><a href="javascript:void(0)"><img class="subnav-img" src="images/navbar/live-casino/sg.png" alt="SG Casino"/><span class="subnav-name" data-content="SG Casino" data-hover="Go!"></span></a></li>
+                    <li><a href="javascript:void(0)"><img class="subnav-img" src="images/navbar/live-casino/mg.png" alt="MG Casino"/><span class="subnav-name" data-content="MG Casino" data-hover="Go!"></span></a></li>
+                  </ul>
+                </div>
+              </li>
+              <!-- Slots -->
+              <li><a href="slots.html"><img class="orig-img" src="images/navbar/slots.svg" alt="Slots"/><img class="active-img" src="images/navbar/slots_active.svg" alt="Slots"/><span>Slots</span></a>
+                <!-- sub-navbar -->
+                <div class="sub-navbar-container">
+                  <ul class="sub-navbar-list container">
+                    <li><a href="javascript:void(0)"><img class="subnav-img" src="images/navbar/slots/ygg.png" alt="YGGDRASIL"/><span class="subnav-name" data-content="YGGDRASIL" data-hover="Go!"></span></a></li>
+                    <li><a href="javascript:void(0)"><img class="subnav-img" src="images/navbar/slots/spg.png" alt="Spadegaming"/><span class="subnav-name" data-content="Spadegaming" data-hover="Go!"></span></a></li>
+                    <li><a href="javascript:void(0)"><img class="subnav-img" src="images/navbar/slots/dt.png" alt="Dreamtech"/><span class="subnav-name" data-content="Dreamtech" data-hover="Go!"></span></a></li>
+                    <li><a href="javascript:void(0)"><img class="subnav-img" src="images/navbar/slots/joker.png" alt="JOKER"/><span class="subnav-name" data-content="JOKER" data-hover="Go!"></span></a></li>
+                    <li><a href="javascript:void(0)"><img class="subnav-img" src="images/navbar/slots/gpi.png" alt="GAMEPLAY"/><span class="subnav-name" data-content="GAMEPLAY" data-hover="Go!"></span></a></li>
+                    <li><a href="javascript:void(0)"><img class="subnav-img" src="images/navbar/slots/betsoft.png" alt="BETSOFT"/><span class="subnav-name" data-content="BETSOFT" data-hover="Go!"></span></a></li>
+                    <li><a href="javascript:void(0)"><img class="subnav-img" src="images/navbar/slots/png.png" alt="Play’n GO"/><span class="subnav-name" data-content="Play’n GO" data-hover="Go!"></span></a></li>
+                    <li><a href="javascript:void(0)"><img class="subnav-img" src="images/navbar/slots/bng.png" alt="Booongo"/><span class="subnav-name" data-content="Booongo" data-hover="Go!"></span></a></li>
+                    <li><a href="javascript:void(0)"><img class="subnav-img" src="images/navbar/slots/mg.png" alt="Microgaming"/><span class="subnav-name" data-content="Microgaming" data-hover="Go!"></span></a></li>
+                    <li><a href="javascript:void(0)"><img class="subnav-img" src="images/navbar/slots/cq9.png" alt="CQ9 Gaming"/><span class="subnav-name" data-content="CQ9 Gaming" data-hover="Go!"></span></a></li>
+                    <li><a href="javascript:void(0)"><img class="subnav-img" src="images/navbar/slots/pt.png" alt="Playtech"/><span class="subnav-name" data-content="Playtech" data-hover="Go!"></span></a></li>
+                  </ul>
+                </div>
+              </li>
+              <!-- Lottery -->
+              <li><a href="lottery.html"><img class="orig-img" src="images/navbar/lottery.svg" alt="Lottery"/><img class="active-img" src="images/navbar/lottery_active.svg" alt="Lottery"/><span>Lottery</span></a>
+                <!-- sub-navbar -->
+                <div class="sub-navbar-container">
+                  <ul class="sub-navbar-list container flex-center">
+                    <li><a href="javascript:void(0)"><img class="subnav-img" src="images/navbar/lottery/thai.png" alt="THAI LOTTERY"/><span class="subnav-name" data-content="THAI LOTTERY" data-hover="Go!"></span></a></li>
+                    <li><a href="javascript:void(0)"><img class="subnav-img" src="images/navbar/lottery/diamond.png" alt="Diamond"/><span class="subnav-name" data-content="Diamond" data-hover="Go!"></span></a></li>
+                    <li><a href="javascript:void(0)"><img class="subnav-img" src="images/navbar/lottery/ruby.png" alt="Ruby"/><span class="subnav-name" data-content="Ruby" data-hover="Go!"></span></a></li>
+                    <li><a href="javascript:void(0)"><img class="subnav-img" src="images/navbar/lottery/sapphire.png" alt="Sapphire"/><span class="subnav-name" data-content="Sapphire" data-hover="Go!"></span></a></li>
+                  </ul>
+                </div>
+              </li>
+              <!-- Fishing -->
+              <li><a href="fishing.html"><img class="orig-img" src="images/navbar/fishing.svg" alt="Fishing"/><img class="active-img" src="images/navbar/fishing_active.svg" alt="Fishing"/><span>Fishing</span></a>
+                <!-- sub-navbar -->
+                <div class="sub-navbar-container">
+                  <ul class="sub-navbar-list container flex-center">
+                    <li><a href="javascript:void(0)"><img class="subnav-img" src="images/navbar/fishing/fishing_god.png" alt="Fishing God"/><span class="subnav-name" data-content="Fishing God" data-hover="Go!"></span></a></li>
+                    <li><a href="javascript:void(0)"><img class="subnav-img" src="images/navbar/fishing/cash_fish.png" alt="Cash Fish"/><span class="subnav-name" data-content="Cash Fish" data-hover="Go!"></span></a></li>
+                    <li><a href="javascript:void(0)"><img class="subnav-img" src="images/navbar/fishing/league_of_fishing_joy.png" alt="League of Fishing Joy"/><span class="subnav-name" data-content="League of Fishing Joy" data-hover="Go!"></span></a></li>
+                    <li><a href="javascript:void(0)"><img class="subnav-img" src="images/navbar/fishing/league_of_bird_hunting.png" alt="League of bird hunting"/><span class="subnav-name" data-content="League of bird hunting" data-hover="Go!"></span></a></li>
+                  </ul>
+                </div>
+              </li>
+              <!-- Promotions -->
+              <li><a href="promotions.html"><img class="orig-img" src="images/navbar/promotions.svg" alt="Promotions"/><img class="active-img" src="images/navbar/promotions_active.svg" alt="Promotions"/><span>Promotions</span></a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main class="main-container article">
+        <div class="article-container container">
+          <div class="article-headline">
+            <h2>Responsible Gaming</h2>
+          </div>
+          <div class="article-subheading">
+            <h3>Community Responsibility</h3>
+          </div>
+          <div class="article-content">
+            <p>Siam28.com is committed to responsible gambling. Remote gambling is a legitimate form of entertainment that is experienced by millions of players worldwide. For most players remote gambling is an enjoyable experience, however, the reality must be accepted that a small percentage of players engaging in remote gambling might be underage or might have a problem with gambling taking over their life and finances.</p>
+            <p>Being a socially responsible company means taking caring of our players, means having a proactive approach about the problems that affect the community. This is why  Fcbclubs.com  has adopted andis fully committed to the strictest application and enforcement of the following policies:</p>
+            <h4 class="article-subtitle">Under Age Gambling</h4>
+            <p>You must be over 18 years of age to register or to place a bet and it is an offence for anyone under the age of 18 to place a bet or register, in an attempt to place a bet. gowin55.com has sophisticated software and procedures in place to minimise the risk of underage customers placing bets. If we have any doubt about the legality of any customer attempting to register or place bets, we will conduct further age verification checks and may require documentary evidence to confirm the age of the applicant. During this period of age verification, no winnings will be paid to any customer. If age verification has not been satisfactorily completed within 72 hours of the application to register, and gamble with deposited funds, the following will apply;The account will be frozen. No further gambling will be permitted until age verification has been successfully completed and; If on completion of age verification the customer is shown to be underage all stakes will be returned to the customer, and no winnings paid.</p>
+            <h4 class="article-subtitle">Staying In Control</h4>
+            <p>Siam28.com  are committed to ensuring that our customers gain maximum enjoyment from their betting and for the majority of people gambling is an enjoyable leisure pursuit. For a very small number however, there can be problems and gambling can cease to be fun. Our customer services team are trained to deal with all aspects of responsible gambling and the following advice may be of interest.</p>
+            <p>We can help you stay in control by setting deposit limits on your account either daily weekly or monthly. Please contact our customer service team to arrange a limit that suits you.</p>
+            <h4 class="article-subtitle">Bet History</h4>
+            <p>You can easily access a full history of transactions, withdrawals and deposits via the ‘My Account’ section on the website.</p>
+            <h4 class="article-subtitle">Things To Remember</h4>
+            <p>The majority of people gamble within their means but if you feel you need to keep control of your gambling, the tips below should help:</p>
+            <ul>
+              <li>Keep track of the amount of time you are playing</li>
+              <li>Gambling should be entertaining, not seen as a way to make money</li>
+              <li>Only spend what you can afford to lose, avoid chasing losses</li>
+              <li>If you're a parent keep your password safe, and if you wish, use software to block access to gambling sites from minors (see Parental Controls below)</li>
+              <li>If you would like to take a break from gambling  Fcbclubs.com  has a self-exclusion option, see below or contact our customer service team</li>
+              <li>If you would like to talk to somebody about problem gambling contact GamCare (see details below)</li>
+            </ul>
+            <h4 class="article-subtitle">Parental Control</h4>
+            <p>If you wish to monitor or restrict the use of your computer's access to the internet, you can use one of the following third party applications:</p>
+            <ul>
+              <li>CYBERsitter filtering software allowing parents to add their own sites to block: cybersitter.com</li>
+              <li>Net Nanny filtering software protects children from inappropriate web content: netnanny.com</li>
+            </ul>
+            <h4 class="article-subtitle">Problem Gambling</h4>
+            <p>If you are concerned that gambling may have taken over your or someone else's life then ask yourself the following questions:</p>
+            <ul>
+              <li>Have others ever criticised your gambling?</li>
+              <li>Have you ever lied to cover up the amount of money or time you have gambled?</li>
+              <li>Do arguments, frustrations or disappointments make you want to gamble?</li>
+              <li>Do you gamble alone for long periods?</li>
+              <li>Do you stay away from work or university to gamble?</li>
+              <li>Do you gamble to escape from a boring or unhappy life?</li>
+              <li>Are you reluctant to spend 'gambling money' on anything else?</li>
+              <li>Have you lost interest in your family, friends or pastimes due to gambling?</li>
+              <li>After losing, do you feel you must try and win back your losses as soon as possible?</li>
+              <li>When gambling and you run out of money, do you feel lost and in despair, and need to gamble again as soon as possible?</li>
+              <li>Do you gamble until your last penny is gone?</li>
+              <li>Have you lied, stolen or borrowed just to get money to gamble or to pay gambling debts?</li>
+              <li>Do you feel depressed or suicidal because of your gambling?</li>
+              <li>The more questions you answer yes to, the more likely you are to have a serious gambling problem.</li>
+            </ul>
+            <h4 class="article-subtitle">Self Exclusion Procedure</h4>
+            <p>On request,  Fcbclubs.com  will close any customer's account(s) for a minimum period of six months and for any period up to 5 years. During the agreed period of time the customer will not be able to place any bets nor will the customer be allowed to revoke the agreement.  Fcbclubs.com  will remove the customer's name from our mailing and marketing lists and will do everything it can to prevent a new account from an excluded customer from being re-opened during the period of self-exclusion.</p>
+            <p>In order to exclude yourself, you will need to inform  Fcbclubs.com  in writing of your intentions. You can do this by filling out a self-exclusion agreement form, available from the link below and sendingit to us via email at help@ Fcbclubs.com . Alternatively, contact our customer services department and they will advise you on how you can proceed with any request.</p>
+            <p>The implementation of a request to self-exclude will be confirmed to you via e-mail or any other stated preferred method of communication. This confirmation will include specific information on theprocess and the consequences of self-exclusion, including the point at which self-exclusion has commenced.</p>
+            <p>Please bear in mind the following;</p>
+            <ul>
+              <li>A self-exclusion agreement cannot be revoked.</li>
+              <li>A self-exclusion agreement will be implemented with effect from the date detailed on the implementation communication you receive from our customer services team.</li>
+              <li>Do you have other  Fcbclubs.com  accounts you wish to be excluded from?</li>
+              <li>Do you visit  Fcbclubs.com  shops that you would wish to be excluded from?</li>
+              <li>This agreement only applies to  Yaboclub.com, if you have accounts with other operators you may consider excluding yourself from those operators.</li>
+              <li>It would help  Fcbclubs.com  support such an agreement if any subsequent changes of personal details (e.g. name, address, postcode) were given to our customer services team at help@Fcbclubs.com to allow records to be updated.</li>
+              <li>If you wish to resume gambling after the exclusion period expires you must contact the customer services department to facilitate this course of action.</li>
+              <li>Once an agreement to re-commence gambling after a period of exclusion has been reached, you will be required to wait 24 hours before you will be allowed to resume gambling.</li>
+              <li>Our customer services team will be available to discuss any aspect of this process or the implications of it</li>
+            </ul>
+          </div>
+        </div>
+        <div class="guide-link-wrapper">
+          <ul class="guide-link">
+            <li><a href="howjoin.html">How to Register</a></li>
+            <li><a href="howdeposit.html">How to Deposit</a></li>
+            <li><a href="howwithdrawal.html">How to Withdrawal</a></li>
+            <li><a href="howtransfer.html">How to Transfer</a></li>
+          </ul>
+        </div>
+      </main>
+      <!-- footer start -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-nav">
+            <div class="footer-nav-logo"><img class="footer-logo" src="images/common/logo.svg" alt="Naga98 Logo"/>
+              <div class="footer-content">
+                <p>Naga98 was founded with a simple mission - to be the best online casino in Thailand breathing new life & fun into world of virtual casino entertainment. </p>
+                <p>Bringing you the best games from world class providers and a high level of trustand unmatched service, you will enjoy a casino experience like no other.</p>
+              </div>
+            </div>
+            <div class="footer-nav-menu">
+              <h4>Naga98</h4>
+              <ul class="link-list">
+                <li><a href="javascript:void(0)">About us</a></li>
+                <li><a href="javascript:void(0)">Banking</a></li>
+                <li><a href="javascript:void(0)">Promotions</a></li>
+                <li><a href="javascript:void(0)">Support</a></li>
+              </ul>
+            </div>
+            <div class="footer-nav-game">
+              <h4>Games</h4>
+              <ul class="link-list">
+                <li><a href="live-casino.html">Live Casino</a></li>
+                <li><a href="sports.html">Sports</a></li>
+                <li><a href="slots.html">Slots</a></li>
+                <li><a href="lottery.html">Lottery</a></li>
+                <li><a href="fishing.html">Fishing</a></li>
+                <li><a href="promotions.html">Promotions</a></li>
+              </ul>
+            </div>
+            <div class="footer-nav-info">
+              <h4>Info Center</h4>
+              <ul class="link-list">
+                <li><a class="active" href="responsible-gaming.html">Responsible Gaming</a></li>
+                <li><a href="javascript:void(0)">Terms of Use</a></li>
+                <li><a href="javascript:void(0)">Privacy Policy</a></li>
+                <li><a href="javascript:void(0)">Disconnection Policy</a></li>
+                <li><a href="javascript:void(0)">FAQ</a></li>
+              </ul>
+            </div>
+            <div class="footer-nav-social">
+              <h4>Get In Touch</h4>
+              <p>Feel free to get siam28 latest news.</p>
+              <ul class="social-link-list">
+                <li><a href="javascript:void(0)"><img src="images/footer/facebook.svg" alt="Facebook Link"/></a></li>
+                <li><a href="javascript:void(0)"><img src="images/footer/instagram.svg" alt="Instagram Link"/></a></li>
+                <li><a href="javascript:void(0)"><img src="images/footer/twitter.svg" alt="Twitter Link"/></a></li>
+                <li><a href="javascript:void(0)"><img src="images/footer/youtube.svg" alt="YouTube Link"/></a></li>
+                <li><a href="javascript:void(0)"><img src="images/footer/skype.svg" alt="Skype Link"/></a></li>
+                <li><a href="javascript:void(0)"><img src="images/footer/whatsapp.svg" alt="Whatsapp Link"/></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-bank">
+            <h4>Payment Methods</h4><img src="images/footer/bank.png" alt=""/>
+          </div>
+          <div class="footer-providers-container">
+            <ul class="footer-providers swiper-wrapper">
+              <li class="swiper-slide"><a href="live-casino.html"><img src="images/footer/providers/ag.png" alt="Asia Gaming"/></a></li>
+              <li class="swiper-slide"><a href="live-casino.html"><img src="images/footer/providers/dg.png" alt="Dream Gaming"/></a></li>
+              <li class="swiper-slide"><a href="live-casino.html"><img src="images/footer/providers/evo.png" alt="Evolution Gaming"/></a></li>
+              <li class="swiper-slide"><a href="slots-game.html"><img src="images/footer/providers/cq9.png" alt="CQ9 Gaming"/></a></li>
+              <li class="swiper-slide"><a href="slots-game.html"><img src="images/footer/providers/bsg.png" alt="BETSOFT"/></a></li>
+              <li class="swiper-slide"><a href="sports.html"><img src="images/footer/providers/cmd368.png" alt="CMD368 Sports"/></a></li>
+              <li class="swiper-slide"><a href="live-casino.html"><img src="images/footer/providers/sg.png" alt="Sexy Gaming"/></a></li>
+              <li class="swiper-slide"><a href="javascript:void(0)"><img src="images/footer/providers/sbobet.png" alt="SBOBET Sports"/></a></li>
+              <li class="swiper-slide"><a href="slots-game.html"><img src="images/footer/providers/bng.png" alt="Booongo"/></a></li>
+              <li class="swiper-slide"><a href="slots-game.html"><img src="images/footer/providers/ygg.png" alt="YGGDRASIL"/></a></li>
+              <li class="swiper-slide"><a href="slots-game.html"><img src="images/footer/providers/spg.png" alt="Spadegaming"/></a></li>
+              <li class="swiper-slide"><a href="slots-game.html"><img src="images/footer/providers/dt.png" alt="DREAMTECH"/></a></li>
+              <li class="swiper-slide"><a href="slots-game.html"><img src="images/footer/providers/joker.png" alt="JOKER"/></a></li>
+              <li class="swiper-slide"><a href="slots-game.html"><img src="images/footer/providers/mg.png" alt="Microgaming"/></a></li>
+              <li class="swiper-slide"><a href="slots-game.html"><img src="images/footer/providers/pt.png" alt="Playtech"/></a></li>
+              <li class="swiper-slide"><a href="live-casino.html"><img src="images/footer/providers/sa.png" alt="SA Gaming"/></a></li>
+              <li class="swiper-slide"><a href="slots-game.html"><img src="images/footer/providers/gpi.png" alt="Gameplay"/></a></li>
+            </ul>
+          </div>
+          <p class="footer-copyright">© 2019 Naga98 . All Rights Reserved for those aged 18+</p>
+        </div>
+      </footer>
+      <!-- footer end -->
+      <!-- aside download -->
+      <aside class="aside-download"><a class="aside-download-main" href="javascript:void(0)" data-toggle="modal" data-target="#modalDownloadMobile"><img class="download-img" src="images/aside/download.svg" alt=""/><span class="download-txt">Download</span></a></aside>
+      <!-- aside download end -->
+      <!-- aside line -->
+      <aside class="aside-line">
+        <div class="aside-line-container"><a class="aside-line-close" href="javascript:void(0)"><img src="images/aside/line_close.svg" alt="Close"/></a><a class="aside-line-main" href="javascript:void(0)"><span class="line-title">LINE</span><img class="line-qrcode" src="images/common/qrcode_test.png" alt=""/><span class="line-txt">@Naga98</span></a></div>
+      </aside>
+      <!-- aside line end -->
+      <!-- go top button -->
+      <aside class="go-top" style="opacity: 0"><a href="#"><img src="images/common/gotop.svg" alt="Go Top Button"/><span>Go Top</span></a></aside>
+      <!-- go top button end -->
+    </div>
+    <!-- signup modal start -->
+    <div class="modal member-modal fade" id="modalSignup" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><img src="images/common/form_close.svg" alt="Close"/></button>
+            <div class="modal-title">
+              <h2>Sign up</h2>
+            </div>
+            <div class="modal-description">
+              <p>Create a Naga98 account for 30 seconds.</p>
+            </div>
+          </div>
+          <div class="modal-body">
+            <form class="modal-form-wrapper" action="#" autocomplete="off">
+              <div class="form-group" data-container="body" data-toggle="popover" data-placement="right" data-trigger="focus" data-content="Please enter 6 to 12 digits and English characters.">
+                <input id="signupUsername" type="text" placeholder="Username" minlength="6" maxlength="12" required="required"/>
+                <div class="form-feedback"></div>
+                <label for="signupUsername"><img class="orig" src="images/common/icon_username.svg" alt="Username" title="Username"/><img class="focus" src="images/common/icon_username_focus.svg" alt="Username" title="Username"/></label>
+              </div>
+              <div class="form-group" data-container="body" data-toggle="popover" data-placement="right" data-trigger="focus" data-content="Passwords must include lowercase, uppercase and numeric, 6 to 12 characters."><span class="psw-btn" title="Show password" data-toggle="tooltip" data-placement="right"><img src="images/common/icon_psw_hide.svg" alt="Hide password"/></span>
+                <input id="signupPassword" type="password" placeholder="Password" minlength="6" maxlength="12" required="required"/>
+                <div class="form-feedback"></div>
+                <label for="signupPassword"><img class="orig" src="images/common/icon_password.svg" alt="Password" title="Password"/><img class="focus" src="images/common/icon_password_focus.svg" alt="Password" title="Password"/></label>
+              </div>
+              <div class="form-group" data-container="body" data-toggle="popover" data-placement="right" data-trigger="focus" data-content="Must match with your bank account.">
+                <input id="signupFullname" type="text" placeholder="Full name" required="required"/>
+                <div class="form-feedback"></div>
+                <label for="signupFullname"><img class="orig" src="images/common/icon_fullname.svg" alt="Full name" title="Full name"/><img class="focus" src="images/common/icon_fullname_focus.svg" alt="Full name" title="Full name"/></label>
+              </div>
+              <div class="form-group" data-container="body" data-toggle="popover" data-placement="right" data-trigger="focus" data-content="Valid phone namber is required for verification purpose, e.g. 66 026292641.">
+                <input id="signupMobile" type="tel" placeholder="Mobile number" required="required"/>
+                <div class="form-feedback"></div>
+                <label for="signupMobile"><img class="orig" src="images/common/icon_mobile.svg" alt="Mobile number" title="Mobile number"/><img class="focus" src="images/common/icon_mobile_focus.svg" alt="Mobile number" title="Mobile number"/></label>
+              </div>
+              <button class="submit-btn" id="signupBtn" type="button" onclick="location.href='index-signedin.html'" data-dismiss="modal" disabled="disabled">Sign up</button>
+            </form>
+            <div class="social-login-container">
+              <div class="social-login-head">
+                <h4>or Sign up using</h4>
+              </div>
+              <ul class="social-login">
+                <li class="social-login-line"><a href="javascript:void(0)"><img src="images/common/signin_line.svg" alt="Sign in with Line"/><span>Sign up with Line</span></a></li>
+                <li class="social-login-facebook"><a href="javascript:void(0)"><img src="images/common/signin_fb.svg" alt="Sign in with Facebook"/><span>Sign up with Facebook</span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <p>No account yet?<a class="change-btn" href="javascript:void(0)" data-toggle="modal" data-target="#modalSignin" data-dismiss="modal">Sign in</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- signup modal end -->
+    <!-- signin modal start -->
+    <div class="member-modal modal fade" id="modalSignin" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><img src="images/common/form_close.svg" alt="Close"/></button>
+            <div class="modal-title">
+              <h2>Sign in</h2>
+            </div>
+            <div class="modal-description">
+              <p>Sign in now, Play the game and get the bonus.</p>
+            </div>
+          </div>
+          <div class="modal-body">
+            <form class="modal-form-wrapper" action="#" autocomplete="off">
+              <div class="form-group">
+                <input class="mb-0" id="signinUsername" type="text" placeholder="Username" minlength="6" maxlength="12" required="required"/>
+                <label for="signinUsername"><img class="orig" src="images/common/icon_username.svg" alt="Username" title="Username"/><img class="focus" src="images/common/icon_username_focus.svg" alt="Username" title="Username"/></label>
+                <!-- 錯誤 <input class="is-invalid mb-0" id="signinUsername" type="text" placeholder="Username"> -->
+                <!-- 正確 <input class="is-valid mb-0" id="signinUsername" type="text" placeholder="Username"> -->
+              </div>
+              <div class="form-group"><span class="psw-btn" title="Show password" data-toggle="tooltip" data-placement="right"><img src="images/common/icon_psw_hide.svg" alt="Hide password"/></span>
+                <input id="signinPassword" type="password" placeholder="Password" minlength="6" maxlength="12" required="required"/>
+                <label for="signinPassword"><img class="orig" src="images/common/icon_password.svg" alt="Password" title="Password"/><img class="focus" src="images/common/icon_password_focus.svg" alt="Password" title="Password"/></label>
+                <!-- 錯誤 <input class="is-invalid" id="signinPassword" type="password" placeholder="Password"> -->
+                <!-- 正確 <input class="is-valid" id="signinPassword" type="password" placeholder="Password"> -->
+                <div class="form-feedback">
+                  <!-- 錯誤訊息 <div class="form-feedback"><img src="images/common/icon_error.svg"><span class="feedback-msg">Username or password incorrect.</span></div> -->
+                  <!-- 正確訊息 <div class="form-feedback"><img src="images/common/icon_correct.svg"><span class="feedback-msg">OK</span></div> -->
+                </div>
+              </div><a class="forgot-btn" href="javascript:void(0)" data-container="body" data-toggle="popover" data-placement="right" data-trigger="focus" title="Forgot Username?" data-content="Please contact our online customer service. Click the live chat at the bottom right.">Forgot Password?</a>
+              <button class="submit-btn" id="signinBtn" type="button" onclick="location.href='index-signedin.html'" data-dismiss="modal" disabled="disabled">Sign in</button>
+            </form>
+            <div class="social-login-container">
+              <div class="social-login-head">
+                <h4>or Sign in using</h4>
+              </div>
+              <ul class="social-login">
+                <li class="social-login-line"><a href="javascript:void(0)"><img src="images/common/signin_line.svg" alt="Sign in with Line"/><span>Sign in with Line</span></a></li>
+                <li class="social-login-facebook"><a href="javascript:void(0)"><img src="images/common/signin_fb.svg" alt="Sign in with Facebook"/><span>Sign in with Facebook</span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <p>No account yet?<a class="change-btn" href="javascript:void(0)" data-toggle="modal" data-target="#modalSignup" data-dismiss="modal">Sign up</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- signin modal end -->
+    <!-- pc download modal -->
+    <div class="download-modal modal fade" id="modalDownloadPc" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><img src="images/common/modal_close.svg" alt="Close"/></button>
+            <div class="modal-title">
+              <h2>Download Center</h2>
+            </div>
+            <div class="modal-description">
+              <p>Click Download Desktop to let you enjoy the casino game.</p>
+            </div>
+          </div>
+          <div class="modal-body">
+            <ul class="download-menu">
+              <li><a href="javascript:void(0)" data-toggle="modal" data-target="#modalDownloadMobile" data-dismiss="modal">Mobile application</a></li>
+              <li><a class="active" href="javascript:void(0)">PC application</a></li>
+            </ul>
+            <div class="download-container">
+              <ul class="download-list">
+                <li>
+                  <div class="download-logo"><img src="images/download/logo/pt.png" alt=""/></div><a class="download-link" href="javascript:void(0)"><img src="images/download/icon_pc.png" alt=""/></a>
+                  <div class="download-txt"><span>Playtech Installer</span></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- pc download modal end -->
+    <!-- mobile download modal -->
+    <div class="download-modal modal fade" id="modalDownloadMobile" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><img src="images/common/modal_close.svg" alt="Close"/></button>
+            <div class="modal-title">
+              <h2>Download Center</h2>
+            </div>
+            <div class="modal-description">
+              <p>Use a mobile web browser to scan the QR code or click on the download link to download the game..</p>
+            </div>
+          </div>
+          <div class="modal-body">
+            <ul class="download-menu">
+              <li><a class="active" href="javascript:void(0)">Mobile application</a></li>
+              <li><a href="javascript:void(0)" data-toggle="modal" data-target="#modalDownloadPc" data-dismiss="modal">PC application</a></li>
+            </ul>
+            <div class="download-container">
+              <div class="download-swiper-container">
+                <ul class="download-list swiper-wrapper">
+                  <!-- Playtech -->
+                  <li class="lg-list swiper-slide">
+                    <div class="download-logo"><img src="images/download/logo/pt.png" alt=""/></div>
+                    <div class="download-txt">
+                      <!-- 未登入 --><span>Sign in ID: </span><a href="javascript:void(0)" data-toggle="modal" data-target="#modalSignup" data-dismiss="modal">Sign up</a><span>or</span><a href="javascript:void(0)" data-toggle="modal" data-target="#modalSignin" data-dismiss="modal">Sign in</a>
+                      <!-- 未登入 end -->
+                      <!-- 已登入 -->
+                      <!-- <span>Sign in ID: 
+                        <span class="yellow-text">YABalexaner</span>
+                        </span>
+                        <br/>
+                        <span>Password: 
+                        <span class="yellow-text">Same as site sign in</span>
+                      </span>
+                      -->
+                      <!-- 已登入 end -->
+                    </div>
+                    <!-- QRcode -->
+                    <div class="download-qrcode">
+                      <!-- live casino -->
+                      <div class="download-qrcode-container">
+                        <div class="qrcode-head"><img src="images/download/icon_android.svg" alt="Android"/><span>Live Casino</span></div>
+                        <div class="qrcode-img"><img src="images/download/qrcode_test.png" alt=""/></div>
+                      </div>
+                      <!-- slots -->
+                      <div class="download-qrcode-container">
+                        <div class="qrcode-head"><img src="images/download/icon_android.svg" alt="Android"/><span>Slots</span></div>
+                        <div class="qrcode-img"><img src="images/download/qrcode_test.png" alt=""/></div>
+                      </div>
+                    </div>
+                    <!-- url  -->
+                    <div class="download-link">
+                      <!-- live casino -->
+                      <div class="download-link-container"><span>Live Casino:</span><a href="http://m.ld176988.com/live/download.html" target="_blank">http://m.ld176988.com/live/download.html</a></div>
+                      <!-- slots -->
+                      <div class="download-link-container"><span>Slots:</span><a href="bit.ly/pltyband" target="_blank">bit.ly/pltyband</a></div>
+                    </div>
+                  </li>
+                  <!-- Playtech end -->
+                  <!-- Asia Gaming -->
+                  <li class="swiper-slide">
+                    <div class="download-logo"><img src="images/download/logo/ag.png" alt=""/></div>
+                    <div class="download-txt">
+                      <!-- 未登入 --><span>Sign in ID:</span><a href="javascript:void(0)" data-toggle="modal" data-target="#modalSignup" data-dismiss="modal">Sign up</a><span>or</span><a href="javascript:void(0)" data-toggle="modal" data-target="#modalSignin" data-dismiss="modal">Sign in</a>
+                    </div>
+                    <div class="download-qrcode">
+                      <!-- live casino -->
+                      <div class="download-qrcode-container">
+                        <div class="qrcode-head"><img src="images/download/icon_android.svg" alt="Android"/><span>Live Casino</span></div>
+                        <div class="qrcode-img"><img src="images/download/qrcode_test.png" alt=""/></div>
+                      </div>
+                    </div>
+                    <div class="download-link">
+                      <div class="download-link-container"><span>Live Casino:</span><a href="https://www.agmbet.com" target="_blank">https://www.agmbet.com</a></div>
+                    </div>
+                  </li>
+                  <!-- Asia Gaming end -->
+                  <!-- Dreamgaming -->
+                  <li class="swiper-slide">
+                    <div class="download-logo"><img src="images/download/logo/dg.png" alt=""/></div>
+                    <div class="download-txt">
+                      <!-- 未登入 --><span>Sign in ID: </span><a href="" data-toggle="modal" data-target="#modalSignup" data-dismiss="modal">Sign up</a><span>or</span><a href="" data-toggle="modal" data-target="#modalSignin" data-dismiss="modal">Sign in</a>
+                      <!-- 已登入 -->
+                      <!-- <span>Sign in ID: 
+                        <span class="yellow-text">YABalexaner</span>
+                        </span>
+                        <br/>
+                        <span>Password: 
+                        <span class="yellow-text">Same as site sign in</span>
+                      </span>
+                      -->
+                      <!-- 已登入 end -->
+                    </div>
+                    <div class="download-qrcode">
+                      <!-- live casino -->
+                      <div class="download-qrcode-container">
+                        <div class="qrcode-head"><img src="images/download/icon_android.svg" alt="Android"/><img src="images/download/icon_ios.svg" alt="iOS"/><span class="small-text">Live Casino</span></div>
+                        <div class="qrcode-img"><img src="images/download/qrcode_test.png" alt=""/></div>
+                      </div>
+                    </div>
+                    <div class="download-link">
+                      <div class="download-link-container"><span>Live Casino:</span><a href="https://f.dg99.info/download/cn.html" target="_blank">https://f.dg99.info/download/cn.html</a></div>
+                    </div>
+                  </li>
+                  <!-- Dreamgaming end-->
+                  <!-- Gameplay  -->
+                  <li class="swiper-slide">
+                    <div class="download-logo"><img src="images/download/logo/gpi.png" alt=""/></div>
+                    <div class="download-txt">
+                      <!-- 未登入 --><span>Sign in ID: </span><a href="" data-toggle="modal" data-target="#modalSignup" data-dismiss="modal">Sign up</a><span>or</span><a href="" data-toggle="modal" data-target="#modalSignin" data-dismiss="modal">Sign in</a>
+                      <!-- 已登入 -->
+                      <!-- <span>Sign in ID: 
+                        <span class="yellow-text">YABalexaner</span>
+                        </span>
+                        <br/>
+                        <span>Password: 
+                        <span class="yellow-text">Same as site sign in</span>
+                      </span>
+                      -->
+                      <!-- 已登入 end -->
+                    </div>
+                    <div class="download-qrcode">
+                      <!-- live casino -->
+                      <div class="download-qrcode-container">
+                        <div class="qrcode-head"><img src="images/download/icon_android.svg" alt="Android"/><span>Live Casino</span></div>
+                        <div class="qrcode-img"><img src="images/download/qrcode_test.png" alt=""/></div>
+                      </div>
+                    </div>
+                    <div class="download-link">
+                      <div class="download-link-container"><span>Live Casino:</span><a href="https://cloudcontent.b2ucontent.com/GameDownloadClient/GMPL/app-new1b-release-2.3.20.apk" target="_blank">https://cloudcontent.b2ucontent.com/GameDownloadClient/GMPL/app-new1b-release-2.3.20.apk</a></div>
+                    </div>
+                  </li>
+                  <!-- Gameplay end -->
+                  <!-- Joker -->
+                  <li class="swiper-slide">
+                    <div class="download-logo"><img src="images/download/logo/joker.png" alt=""/></div>
+                    <div class="download-txt">
+                      <!-- 未登入 --><span>Sign in ID:</span><a href="" data-toggle="modal" data-target="#modalSignup" data-dismiss="modal">Sign up</a><span>or</span><a href="" data-toggle="modal" data-target="#modalSignin" data-dismiss="modal">Sign in</a>
+                      <!-- 已登入 -->
+                      <!-- <span>Sign in ID: 
+                        <span class="yellow-text">YABalexaner</span>
+                        </span>
+                        <br/>
+                        <span>Password: 
+                        <span class="yellow-text">Same as site sign in</span>
+                      </span>
+                      -->
+                      <!-- 已登入 end -->
+                    </div>
+                    <div class="download-qrcode">
+                      <div class="download-qrcode-container">
+                        <div class="qrcode-head"><img src="images/download/icon_android.svg" alt="Android"/><img src="images/download/icon_ios.svg" alt="iOS"/><span>Slots</span></div>
+                        <div class="qrcode-img"><img src="images/download/qrcode_test.png" alt=""/></div>
+                      </div>
+                    </div>
+                    <div class="download-link">
+                      <div class="download-link-container"><span>Slots:</span><a href="https://www.joker018.net/mobile" target="_blank">https://www.joker018.net/mobile</a></div>
+                    </div>
+                  </li>
+                  <!-- Joker end -->
+                </ul>
+              </div>
+              <div class="modal-btn modal-button-prev"></div>
+              <div class="modal-btn modal-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- mobile download modal -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery.marquee.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/moment.js"></script>
+    <script src="js/all.js"></script>
+  </body>
+</html>

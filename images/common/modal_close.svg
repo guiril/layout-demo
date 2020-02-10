@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Shape 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0.122337342%" id="linearGradient-1">
+            <stop stop-color="#CCCCCC" offset="0%"></stop>
+            <stop stop-color="#F0F0F0" offset="64%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+            <stop stop-color="#FBFBFA" offset="100%"></stop>
+            <stop stop-color="#F0EEEB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Shape-3" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <path d="M12,0 C5.373,0 0,5.373 0,12 C0,18.627 5.373,24 12,24 C18.627,24 24,18.627 24,12 C24,5.373 18.627,0 12,0 Z M17.9355,15.8145 L15.8145,17.9355 L12,14.121 L8.1855,17.9355 L6.0645,15.8145 L9.879,12 L6.0645,8.1855 L8.1855,6.0645 L12,9.879 L15.8145,6.0645 L17.9355,8.1855 L14.121,12 L17.9355,15.8145 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

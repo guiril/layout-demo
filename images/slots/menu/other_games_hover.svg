@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="26px" viewBox="0 0 22 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>slot-icon-other</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-6.000000, -5.000000)">
+            <rect id="Rectangle" x="6" y="5" width="22" height="26"></rect>
+            <path d="M28,23.3761632 L26.5192308,23.3761632 L26.5192308,20.9747328 L25.0384615,20.9747328 L25.0384615,15.9251511 C25.0384615,12.3002441 22.6057692,9.23361742 19.2211538,8.26114251 L19.2211538,5 L14.7788462,5 L14.7788462,8.23138565 C11.3942308,9.16961407 8.85576923,12.2622388 8.85576923,15.9251511 L8.85576923,20.9747328 L7.48076923,20.9747328 L7.48076923,23.3761632 L6,23.3761632 L6,25.7775936 L14.1442308,25.7775936 L14.1442308,26.1932499 C14.1442308,27.7408152 15.4253077,29 17,29 C18.5746923,29 19.8557692,27.7408152 19.8557692,26.1932499 L19.8557692,25.7775936 L28,25.7775936 L28,23.3761632 Z" id="Path" fill="#FFDD00" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>
