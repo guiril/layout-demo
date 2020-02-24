@@ -782,6 +782,9 @@ table {
   *:focus {
     outline: none; }
 
+main {
+  display: block; }
+
 a {
   color: inherit;
   text-decoration: none; }

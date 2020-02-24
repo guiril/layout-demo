@@ -423,18 +423,19 @@
   if (getEl('.current-date')) {
     // current date
     var currentDate = getAllEl('.current-date');
-    currentDate.forEach(function (el) {
-      el.value = moment().format('YYYY-MM-DD');
-    });
+
+    for (var i = 0; i < currentDate.length; i++) {
+      currentDate[i].value = moment().format('YYYY-MM-DD');
+    }
   }
 
   if (getEl('.current-time')) {
     // current time
-    var _currentDate = getAllEl('.current-time');
+    var currentTime = getAllEl('.current-time');
 
-    _currentDate.forEach(function (el) {
-      el.value = moment().format('HH:mm');
-    });
+    for (var _i4 = 0; _i4 < currentTime.length; _i4++) {
+      currentTime[_i4].value = moment().format('HH:mm');
+    }
   }
 
   if (getEl('.copy-btn')) {
